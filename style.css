@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Vazirmatn, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.message-box {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(desktop-wallpaper-purple-purple-tags-iphone-background-dark-purple-aesthetic-rain-purple-aesthetic-aesthetic-rain-anime.jpg);
+    color: #f5f5f5;
+}
+
+.message-header {
+    background-color: rgb(33, 33, 33);
+    padding: 10px;
+    color: #f5f5f5;
+    display: flex;
+    align-items: center;
+}
+
+.message-body {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.message-footer {
+    background-color: #00000000;
+    padding: 10px;
+    display: flex;
+}
+
+.prof {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 1rem;
+}
+
+.message-footer input[type="text"] {
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(33, 33, 33);
+}
+
+.message-footer input[type="text"]::placeholder,
+.message-footer input[type="text"]:focus {
+    color: #f5f5f5;
+    padding-left: 1rem;
+    border: 0;
+}
+
+
+.message-footer button {
+    padding: .8rem;
+    border: none;
+    border-radius: 3px;
+    border-radius: 15px;
+    background: #212121;
+    color: rgb(255, 255, 255);
+}
+
+li {
+    background: #212121;
+    margin: 1rem 0 1rem 0;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+}
